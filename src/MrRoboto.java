@@ -3,6 +3,10 @@ import java.util.Scanner;
 
 public class MrRoboto {
     /**
+     * @author Trevor Hartman
+     * @author Adrienne van Summern
+     * @since version 1.0
+     *
      * Teaching Mr. Roboto how to listen to us.
      * @param args Command line arguments [The source file path, The target file path, ...]
      **/
@@ -15,5 +19,7 @@ public class MrRoboto {
 
         System.out.print("My name is Mr. Roboto, are you Kilroy? ");
         // Write your program here
+        String enteredText = scanner.nextLine();
+        System.out.println(domo + enteredText);
     }
 }
